@@ -1,4 +1,4 @@
-	# 04. Distribuições Linux
+# 04. Distribuições Linux
 
 ────────────────────────────────────────────
 
