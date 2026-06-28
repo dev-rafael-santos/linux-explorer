@@ -20,149 +20,139 @@ A proposta é desenvolver compreensão, autonomia e confiança no uso do sistema
 
 # 🚀 O que você encontrará neste projeto?
 
-* 📚 Conteúdo organizado por módulos.
-* 🧠 Explicações progressivas e didáticas.
-* 💻 Exemplos práticos.
-* 🧪 Laboratórios guiados.
-* 🎯 Desafios para fixação.
-* 📄 Cheat Sheets.
-* 📝 Resumos de cada módulo.
-* 📖 Referências oficiais.
+- 📚 Conteúdo organizado por módulos.
+- 🧠 Explicações progressivas e didáticas.
+- 💻 Exemplos práticos.
+- 🧪 Laboratórios guiados.
+- 🎯 Desafios práticos.
+- 📄 Cheat Sheets.
+- 📝 Resumos ao final de cada módulo.
+- 📖 Referências oficiais.
+- ✅ Conteúdo pensado para iniciantes e profissionais.
 
 ---
 
 # 🗺️ Trilha de Aprendizagem
 
-| Status | Módulo                      |
-| ------ | --------------------------- |
-| ✅      | Fundamentos do Linux        |
-| ✅      | Terminal                    |
-| 🚧     | Sistema de Arquivos         |
-| ⏳      | Manipulação de Arquivos     |
-| ⏳      | Permissões                  |
-| ⏳      | Gerenciamento de Pacotes    |
-| ⏳      | Processos                   |
-| ⏳      | Redes                       |
-| ⏳      | Bash Script                 |
-| ⏳      | Ambiente de Desenvolvimento |
-
-O progresso detalhado pode ser acompanhado em **ROADMAP.md**.
+| Status | Módulo |
+|:------:|---------|
+| ✅ | 01 - Fundamentos do Linux |
+| ✅ | 02 - Terminal |
+| ✅ | 03 - Sistema de Arquivos |
+| ✅ | 04 - Manipulação de Arquivos |
+| ✅ | 05 - Permissões |
+| 🚧 | 06 - Gerenciamento de Pacotes |
+| ⏳ | 07 - Processos |
+| ⏳ | 08 - Redes |
+| ⏳ | 09 - Bash Script |
+| ⏳ | 10 - Ambiente de Desenvolvimento |
 
 ---
 
-# 📂 Estrutura do projeto
+# 📂 Estrutura do Projeto
 
 ```text
 linux-explorer/
 │
 ├── README.md
-├── ROADMAP.md
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── LICENSE
+├── SECURITY.md
 │
-├── conteudo/
-│   ├── 01-fundamentos-linux/
-│   ├── 02-terminal/
-│   ├── 03-sistema-de-arquivos/
-│   └── ...
-|──docs/
-│
-├── README.md
-├── editorial/
-├── contribuicao/
-├── processos/
-└── planejamento/
-
-├── laboratorios/
-├── desafios/
-├── imagens/
-|
-docs/
-│
-├── README.md
-├── editorial/
-├── contribuicao/
-├── processos/
-└── planejamento/
-
+└── conteudo/
+    ├── 01-fundamentos-linux/
+    ├── 02-terminal/
+    ├── 03-sistema-de-arquivos/
+    ├── 04-manipulacao-de-arquivos/
+    ├── 05-permissoes/
+    ├── 06-gerenciamento-de-pacotes/
+    ├── 07-processos/
+    ├── 08-redes/
+    ├── 09-bash-script/
+    └── 10-ambiente-de-desenvolvimento/
 ```
 
 ---
 
 # 📖 Como estudar
 
-A recomendação é seguir os módulos na ordem em que foram organizados.
+A recomendação é seguir os módulos exatamente na ordem em que foram organizados.
 
 Dentro de cada módulo:
 
-1. Leia o README do módulo.
+1. Leia o `README.md`.
 2. Estude um capítulo por vez.
 3. Execute todos os exemplos.
-4. Realize os exercícios propostos.
-5. Resolva os desafios.
-6. Revise utilizando o RESUMO.md.
-7. Utilize o CHEATSHEET.md como material de consulta rápida.
+4. Realize os laboratórios.
+5. Resolva o desafio prático.
+6. Revise utilizando o `RESUMO.md`.
+7. Utilize o `CHEATSHEET.md` como material de consulta rápida.
 
-Evite pular capítulos.
-
-Os módulos foram planejados para que cada novo conceito dependa do anterior.
+> **Importante:** não pule capítulos. Cada módulo foi planejado para servir de base para o próximo.
 
 ---
 
 # 📦 Estrutura dos módulos
 
-Cada módulo segue um padrão de organização.
+Todos os módulos seguem a mesma organização.
 
 ```text
 Módulo
 │
-├── README.md
+├── 00-preparando-o-ambiente.md (quando necessário)
 ├── Capítulos
 ├── CHEATSHEET.md
+├── README.md
 └── RESUMO.md
 ```
 
-Essa padronização facilita os estudos e torna a documentação mais consistente.
+Essa padronização facilita os estudos e torna toda a documentação consistente.
 
 ---
 
-# 🤝 Como contribuir
+# 💡 Filosofia do projeto
 
-Contribuições são muito bem-vindas.
+O Linux Explorer foi criado seguindo um princípio simples:
 
-Antes de contribuir, leia:
+> **Primeiro compreender. Depois praticar. Por fim, aplicar em cenários reais.**
 
-* `CONTRIBUTING.md`
-* `CODE_OF_CONDUCT.md`
-
-Toda sugestão, correção ou melhoria é importante para o crescimento do projeto.
+O objetivo não é apenas ensinar comandos, mas desenvolver o raciocínio necessário para administrar sistemas Linux com segurança e autonomia.
 
 ---
 
 # 📈 Status do projeto
 
-**Versão atual:** `0.2.0`
+**Versão atual:** `0.5.0`
 
-Projeto em desenvolvimento contínuo.
+Módulos concluídos:
 
-Novos módulos serão adicionados gradualmente.
+- ✅ Fundamentos do Linux
+- ✅ Terminal
+- ✅ Sistema de Arquivos
+- ✅ Manipulação de Arquivos
+- ✅ Permissões
 
-As alterações podem ser acompanhadas em **CHANGELOG.md**.
+Próximo módulo:
+
+- 🚧 Gerenciamento de Pacotes
 
 ---
 
 # 📚 Referências
 
-Este projeto utiliza como base a documentação oficial e materiais reconhecidos pela comunidade Linux.
+O conteúdo deste projeto é baseado principalmente na documentação oficial e em materiais amplamente reconhecidos pela comunidade Linux.
 
 Entre as principais referências estão:
 
-* GNU Project
-* Linux Foundation
-* Ubuntu Documentation
-* Kernel.org
+- GNU Project
+- Linux Foundation
+- Ubuntu Documentation
+- Arch Linux Wiki
+- Kernel.org
+
+---
+
+# 🔒 Segurança
+
+Caso encontre algum problema relacionado ao conteúdo do projeto ou identifique alguma vulnerabilidade, consulte o arquivo **SECURITY.md**.
 
 ---
 
@@ -170,14 +160,12 @@ Entre as principais referências estão:
 
 Este projeto está licenciado sob a licença **MIT**.
 
-Consulte o arquivo `LICENSE` para mais informações.
-
 ---
 
 # 👨‍💻 Autor
 
 Desenvolvido por **Rafael Santos**.
 
-Este projeto nasceu com o objetivo de compartilhar conhecimento e tornar o aprendizado de Linux mais acessível para estudantes e profissionais.
+O Linux Explorer nasceu com a missão de tornar o aprendizado de Linux acessível, organizado e progressivo, permitindo que estudantes e profissionais construam uma base sólida antes de avançarem para tópicos mais complexos.
 
-Se este material ajudar você, considere deixar uma ⭐ no repositório. Ela incentiva a continuidade do projeto e ajuda outras pessoas a descobrirem o Linux Explorer.
+Se este projeto contribuir com sua aprendizagem, considere deixar uma ⭐ no repositório. Isso ajuda outras pessoas a encontrarem o Linux Explorer e incentiva a continuidade do projeto.
