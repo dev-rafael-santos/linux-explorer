@@ -251,6 +251,69 @@ cat /proc/uptime
 
 ---
 
+# 🧪 Experimento
+
+Uma das características mais interessantes de `/proc` é que seus arquivos refletem o estado atual do sistema.
+
+Vamos observar isso na prática.
+
+Abra **dois Terminais**.
+
+No primeiro Terminal, execute:
+
+```bash
+watch -n 1 cat /proc/uptime
+```
+
+O comando `watch` executa outro comando repetidamente, atualizando a tela automaticamente.
+
+Observe que o valor exibido aumenta a cada segundo.
+
+Agora, no segundo Terminal:
+
+```bash
+cat /proc/uptime
+```
+
+Compare o resultado com o primeiro Terminal.
+
+Perceba que o conteúdo muda constantemente.
+
+Isso acontece porque o arquivo `/proc/uptime` **não está gravado no disco**. Seu conteúdo é gerado pelo Kernel sempre que é solicitado.
+
+Agora faça outro experimento.
+
+Execute:
+
+```bash
+cat /proc/meminfo
+```
+
+Em seguida, abra alguns programas, como o navegador ou o VS Code.
+
+Depois execute novamente:
+
+```bash
+cat /proc/meminfo
+```
+
+Observe como alguns valores mudaram.
+
+Isso demonstra que o Kernel atualiza essas informações em tempo real.
+
+### O que observar?
+
+Ao final deste experimento, responda mentalmente:
+
+* O arquivo realmente existe no disco?
+* Por que o conteúdo muda sem que ninguém o edite?
+* Quem gera essas informações?
+* O que isso revela sobre o funcionamento do Linux?
+
+Se você concluiu que o Kernel cria essas informações dinamicamente, então compreendeu um dos conceitos mais importantes deste módulo.
+
+---
+
 # Explore
 
 Entre em:
