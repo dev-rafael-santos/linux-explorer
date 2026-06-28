@@ -1,5 +1,10 @@
 # 🐧 Linux Explorer
 
+![GitHub last commit](https://img.shields.io/github/last-commit/dev-rafael-santos/linux-explorer)
+![GitHub repo size](https://img.shields.io/github/repo-size/dev-rafael-santos/linux-explorer)
+![License](https://img.shields.io/github/license/dev-rafael-santos/linux-explorer)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
+
 > Aprenda Linux do zero ao nível profissional, de forma estruturada, prática e progressiva.
 
 O **Linux Explorer** é um projeto Open Source criado para ensinar Linux de maneira didática, indo além da simples memorização de comandos.
