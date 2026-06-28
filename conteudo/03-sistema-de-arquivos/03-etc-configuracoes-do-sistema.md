@@ -51,6 +51,23 @@ Mesmo como desenvolvedor, você encontrará configurações de serviços, bancos
 
 ---
 
+# Quando você usará isso?
+
+Você encontrará o diretório `/etc` em várias situações práticas, como:
+
+- Configurar o nome da máquina.
+- Ajustar configurações de rede.
+- Configurar acesso SSH.
+- Administrar usuários e grupos.
+- Configurar servidores web.
+- Configurar bancos de dados.
+- Ajustar serviços do sistema.
+- Investigar problemas de configuração.
+
+Mesmo que você não altere arquivos em `/etc` todos os dias, é muito comum consultar esse diretório para entender como o sistema está configurado.
+
+---
+
 # Você vai conhecer
 
 | Item                   | Informação                                                       |
