@@ -44,7 +44,7 @@ Os conceitos apresentados nesses módulos serão utilizados constantemente.
 
 ## Capítulos
 
-0. Preparando o laboratório
+00-preparando-o-laboratorio-de-arquivos.md
 1. Criando arquivos e diretórios
 2. Copiando, movendo e renomeando
 3. Excluindo arquivos com segurança
