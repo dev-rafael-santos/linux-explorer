@@ -162,6 +162,7 @@ Este projeto está licenciado sob a licença **MIT**.
 
 ---
 
+
 # 👨‍💻 Autor
 
 Desenvolvido por **Rafael Santos**.
