@@ -2,27 +2,54 @@
 
 Este roadmap apresenta a trilha de aprendizado sugerida para estudar Linux de forma progressiva.
 
-## Trilha principal
+---
 
-1. Fundamentos do Linux
-2. Terminal
-3. Sistema de arquivos
-4. Manipulação de arquivos
-5. Permissões
-6. Gerenciamento de pacotes
-7. Processos
-8. Redes
-9. Bash Script
-10. Ambiente de desenvolvimento
+# Progresso
 
-## Módulo 01 — Fundamentos do Linux
+* ✅ Módulo 01 — Fundamentos do Linux
+* ⏳ Módulo 02 — Terminal
+* ⏳ Módulo 03 — Sistema de Arquivos
+* ⏳ Módulo 04 — Manipulação de Arquivos
+* ⏳ Módulo 05 — Permissões
+* ⏳ Módulo 06 — Gerenciamento de Pacotes
+* ⏳ Módulo 07 — Processos
+* ⏳ Módulo 08 — Redes
+* ⏳ Módulo 09 — Bash Script
+* ⏳ Módulo 10 — Ambiente de Desenvolvimento
 
-- O que é Linux?
-- Como um computador inicia?
-- O Kernel Linux
-- Distribuições Linux
-- Conhecendo o Terminal
+---
 
-## Objetivo da trilha
+# Ordem sugerida
 
-Construir uma base sólida para utilizar Linux com segurança, compreender sua estrutura e aplicar esse conhecimento em desenvolvimento, automações e ambientes profissionais.
+## ✅ Módulo 01 — Fundamentos do Linux
+
+* O que é Linux?
+* Como um computador inicia?
+* O Kernel Linux
+* Distribuições Linux
+* Conhecendo o Terminal
+
+---
+
+## ⏳ Módulo 02 — Terminal
+
+* O Prompt
+* Primeiros comandos
+* Navegação entre diretórios
+* Ajuda do Linux
+* Histórico de comandos
+
+---
+
+## ⏳ Módulo 03 — Sistema de Arquivos
+
+* Diretório raiz
+* /home
+* /etc
+* /usr
+* /var
+* /tmp
+
+---
+
+Os demais módulos serão desenvolvidos progressivamente conforme a evolução da documentação.

@@ -12,3 +12,17 @@ Exemplos:
 * Glossário.
 * Versão em inglês.
 * Versão em PDF.
+
+
+---
+
+## Ideias identificadas durante o Módulo 01
+
+* Criar diagramas ASCII para todos os capítulos.
+* Criar um glossário de termos técnicos.
+* Criar um índice alfabético.
+* Disponibilizar uma versão em PDF.
+* Adicionar laboratórios extras ao final de cada módulo.
+* Criar desafios opcionais.
+* Adicionar tempo estimado de estudo por módulo.
+* Criar um módulo de revisão geral ao final da documentação.

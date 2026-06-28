@@ -23,3 +23,11 @@ Você deverá ser capaz de:
 - Compreender o processo básico de inicialização.
 - Diferenciar distribuições Linux.
 - Entender por que o Terminal é uma ferramenta central no Linux.
+
+---
+
+## Status
+
+✅ Módulo concluído.
+
+Antes de prosseguir para o próximo módulo, recomenda-se revisar os capítulos e realizar o desafio presente no arquivo `RESUMO.md`.
