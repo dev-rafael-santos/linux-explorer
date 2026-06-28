@@ -67,11 +67,26 @@ linux-explorer/
 │   ├── 02-terminal/
 │   ├── 03-sistema-de-arquivos/
 │   └── ...
+|──docs/
 │
+├── README.md
+├── editorial/
+├── contribuicao/
+├── processos/
+└── planejamento/
+
 ├── laboratorios/
 ├── desafios/
 ├── imagens/
-└── docs/
+|
+docs/
+│
+├── README.md
+├── editorial/
+├── contribuicao/
+├── processos/
+└── planejamento/
+
 ```
 
 ---

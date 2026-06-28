@@ -1,18 +1,48 @@
-# Documentação interna do projeto
+# Documentação interna do Linux Explorer
 
-Esta pasta reúne documentos usados para organizar, manter e evoluir o Linux Explorer.
+Esta pasta reúne toda a documentação utilizada para manter e evoluir o projeto Linux Explorer.
 
-Estes arquivos não fazem parte da trilha principal de estudos. Eles servem para orientar a escrita, publicação e manutenção do projeto.
+Os arquivos presentes aqui não fazem parte da trilha de estudos do aluno. Eles são utilizados para definir padrões, processos e planejamento do projeto.
 
-## Arquivos
+---
 
-- `guia-do-autor.md` — princípios de escrita e didática.
-- `padrao-dos-capitulos.md` — estrutura padrão dos capítulos.
-- `workflow-git.md` — fluxo de trabalho com Git.
-- `checklist-publicacao.md` — checklist antes de publicar conteúdos.
-- `padrao-de-commits.md` — convenção de mensagens de commit.
-- `ideias-futuras.md` — melhorias e ideias para próximas versões.
+## Estrutura
+
+### 📚 editorial/
+
+Documentos que definem como o conteúdo deve ser escrito.
+
+Arquivos:
+
+- GUIA_DE_ESTILO.md
+- TEMPLATE_CAPITULO.md
+
+---
+
+### 🤝 contribuicao/
+
+Documentos relacionados à criação de novos conteúdos e colaboração.
+
+---
+
+### ⚙️ processos/
+
+Fluxos internos do projeto.
+
+Exemplos:
+
+- workflow-git.md
+- checklist-publicacao.md
+- padrao-de-commits.md
+
+---
+
+### 📅 planejamento/
+
+Documentos utilizados para organizar futuras melhorias do projeto.
+
+---
 
 ## Objetivo
 
-Manter o projeto organizado, consistente e fácil de evoluir.
+Centralizar toda a documentação interna do Linux Explorer em um único local, mantendo o repositório organizado e facilitando futuras contribuições.
