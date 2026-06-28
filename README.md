@@ -1,46 +1,168 @@
-# Linux Explorer
+# 🐧 Linux Explorer
 
-Documentação prática e progressiva para aprender Linux do zero, com foco em Ubuntu, Terminal, estrutura do sistema, comandos essenciais e fundamentos para desenvolvimento.
+> Aprenda Linux do zero ao nível profissional, de forma estruturada, prática e progressiva.
 
-## Objetivo
+O **Linux Explorer** é um projeto Open Source criado para ensinar Linux de maneira didática, indo além da simples memorização de comandos.
 
-Ensinar Linux de forma clara, prática e estruturada, explicando não apenas comandos, mas também os conceitos por trás do sistema.
+Ao longo da trilha de aprendizagem, você entenderá como o sistema operacional funciona internamente, aprenderá a utilizar o Terminal com confiança e desenvolverá habilidades aplicáveis ao mercado de trabalho.
 
-## Público-alvo
+---
 
-Este material foi criado para pessoas iniciantes que desejam aprender Linux para:
+# 🎯 Objetivo
 
-- Desenvolvimento de software
-- Automação
-- Administração de sistemas
-- DevOps
-- Engenharia de dados
-- Segurança
-- Uso profissional do Terminal
+O objetivo deste projeto é fornecer uma documentação organizada que permita ao estudante evoluir passo a passo, desde os fundamentos até tópicos avançados do Linux.
 
-## Como estudar
+Cada módulo foi planejado para construir uma base sólida antes de introduzir novos conceitos.
 
-Siga a ordem sugerida no [Roadmap](./ROADMAP.md).
+A proposta é desenvolver compreensão, autonomia e confiança no uso do sistema operacional.
 
-Cada módulo apresenta conceitos, exemplos, laboratórios e boas práticas.
+---
 
-## Estrutura do repositório
+# 🚀 O que você encontrará neste projeto?
 
-- `conteudo/` — conteúdos principais
-- `laboratorios/` — práticas guiadas
-- `desafios/` — exercícios de fixação
-- `imagens/` — imagens e diagramas
-- `bastidores/` — organização interna do projeto
+* 📚 Conteúdo organizado por módulos.
+* 🧠 Explicações progressivas e didáticas.
+* 💻 Exemplos práticos.
+* 🧪 Laboratórios guiados.
+* 🎯 Desafios para fixação.
+* 📄 Cheat Sheets.
+* 📝 Resumos de cada módulo.
+* 📖 Referências oficiais.
 
-## Módulos
+---
 
-1. [Fundamentos do Linux](./conteudo/01-fundamentos-linux/)
-2. [Terminal](./conteudo/02-terminal/)
-3. [Sistema de arquivos](./conteudo/03-sistema-de-arquivos/)
-4. [Manipulação de arquivos](./conteudo/04-manipulacao-de-arquivos/)
-5. [Permissões](./conteudo/05-permissoes/)
-6. [Gerenciamento de pacotes](./conteudo/06-gerenciamento-de-pacotes/)
-7. [Processos](./conteudo/07-processos/)
-8. [Redes](./conteudo/08-redes/)
-9. [Bash Script](./conteudo/09-bash-script/)
-10. [Ambiente de desenvolvimento](./conteudo/10-ambiente-de-desenvolvimento/)
+# 🗺️ Trilha de Aprendizagem
+
+| Status | Módulo                      |
+| ------ | --------------------------- |
+| ✅      | Fundamentos do Linux        |
+| ✅      | Terminal                    |
+| 🚧     | Sistema de Arquivos         |
+| ⏳      | Manipulação de Arquivos     |
+| ⏳      | Permissões                  |
+| ⏳      | Gerenciamento de Pacotes    |
+| ⏳      | Processos                   |
+| ⏳      | Redes                       |
+| ⏳      | Bash Script                 |
+| ⏳      | Ambiente de Desenvolvimento |
+
+O progresso detalhado pode ser acompanhado em **ROADMAP.md**.
+
+---
+
+# 📂 Estrutura do projeto
+
+```text
+linux-explorer/
+│
+├── README.md
+├── ROADMAP.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+│
+├── conteudo/
+│   ├── 01-fundamentos-linux/
+│   ├── 02-terminal/
+│   ├── 03-sistema-de-arquivos/
+│   └── ...
+│
+├── laboratorios/
+├── desafios/
+├── imagens/
+└── bastidores/
+```
+
+---
+
+# 📖 Como estudar
+
+A recomendação é seguir os módulos na ordem em que foram organizados.
+
+Dentro de cada módulo:
+
+1. Leia o README do módulo.
+2. Estude um capítulo por vez.
+3. Execute todos os exemplos.
+4. Realize os exercícios propostos.
+5. Resolva os desafios.
+6. Revise utilizando o RESUMO.md.
+7. Utilize o CHEATSHEET.md como material de consulta rápida.
+
+Evite pular capítulos.
+
+Os módulos foram planejados para que cada novo conceito dependa do anterior.
+
+---
+
+# 📦 Estrutura dos módulos
+
+Cada módulo segue um padrão de organização.
+
+```text
+Módulo
+│
+├── README.md
+├── Capítulos
+├── CHEATSHEET.md
+└── RESUMO.md
+```
+
+Essa padronização facilita os estudos e torna a documentação mais consistente.
+
+---
+
+# 🤝 Como contribuir
+
+Contribuições são muito bem-vindas.
+
+Antes de contribuir, leia:
+
+* `CONTRIBUTING.md`
+* `CODE_OF_CONDUCT.md`
+
+Toda sugestão, correção ou melhoria é importante para o crescimento do projeto.
+
+---
+
+# 📈 Status do projeto
+
+**Versão atual:** `0.2.0`
+
+Projeto em desenvolvimento contínuo.
+
+Novos módulos serão adicionados gradualmente.
+
+As alterações podem ser acompanhadas em **CHANGELOG.md**.
+
+---
+
+# 📚 Referências
+
+Este projeto utiliza como base a documentação oficial e materiais reconhecidos pela comunidade Linux.
+
+Entre as principais referências estão:
+
+* GNU Project
+* Linux Foundation
+* Ubuntu Documentation
+* Kernel.org
+
+---
+
+# 📜 Licença
+
+Este projeto está licenciado sob a licença **MIT**.
+
+Consulte o arquivo `LICENSE` para mais informações.
+
+---
+
+# 👨‍💻 Autor
+
+Desenvolvido por **Rafael Santos**.
+
+Este projeto nasceu com o objetivo de compartilhar conhecimento e tornar o aprendizado de Linux mais acessível para estudantes e profissionais.
+
+Se este material ajudar você, considere deixar uma ⭐ no repositório. Ela incentiva a continuidade do projeto e ajuda outras pessoas a descobrirem o Linux Explorer.
