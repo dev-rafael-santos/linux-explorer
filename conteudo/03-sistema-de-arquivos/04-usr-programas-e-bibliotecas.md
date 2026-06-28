@@ -170,6 +170,22 @@ Utilizado para armazenar códigos-fonte de programas e, em alguns casos, do pró
 
 ---
 
+# O que normalmente você encontrará aqui?
+
+Ao explorar o diretório `/usr`, é comum encontrar:
+
+| Tipo de conteúdo | Exemplos |
+|------------------|----------|
+| Executáveis | `python`, `git`, `nano`, `vim`, `less` |
+| Bibliotecas | arquivos utilizados pelos programas instalados |
+| Documentação | páginas de manual, traduções, ícones |
+| Arquivos compartilhados | temas, fontes, imagens, arquivos de ajuda |
+| Código-fonte | conteúdos armazenados em `/usr/src` |
+
+Embora nem todas as distribuições tenham exatamente a mesma organização, essa estrutura é muito comum em sistemas Linux modernos.
+
+---
+
 # Comparando com o Windows
 
 | Windows                 | Linux        |
@@ -239,6 +255,43 @@ Não altere nenhum arquivo.
 
 O objetivo é apenas compreender a organização do sistema.
 
+
+---
+
+# 💼 Exemplos do mundo real
+
+Veja algumas situações em que você utilizará o diretório `/usr` durante sua jornada como desenvolvedor ou administrador de sistemas.
+
+### Instalando o Python
+
+Ao instalar o Python utilizando o gerenciador de pacotes da distribuição, os arquivos executáveis normalmente serão armazenados em locais como `/usr/bin`.
+
+---
+
+### Instalando o Git
+
+Depois de instalar o Git, comandos como:
+
+```bash
+git
+```
+
+passam a estar disponíveis porque o executável foi instalado em um diretório pertencente à estrutura do `/usr`.
+
+---
+
+### Utilizando o VS Code
+
+Ao instalar o Visual Studio Code por meio do gerenciador de pacotes, parte dos arquivos da aplicação será armazenada em diretórios relacionados ao `/usr`, dependendo da forma de instalação utilizada.
+
+---
+
+### Utilizando bibliotecas
+
+Sempre que um programa precisa executar determinada função, ele pode reutilizar bibliotecas armazenadas em `/usr/lib`, evitando duplicação de código e reduzindo o tamanho dos programas.
+
+Essas situações mostram que, mesmo sem acessar diretamente esse diretório todos os dias, ele participa constantemente da execução das aplicações utilizadas no Linux.
+
 ---
 
 # ⚠️ Pode alterar?
@@ -251,11 +304,12 @@ O objetivo é apenas compreender a organização do sistema.
 
 # Você sabia?
 
-O nome **`/usr`** costuma gerar confusão.
+Embora muitas pessoas pensem que `/usr` significa **User**, esse nome possui origem histórica no Unix.
 
-Muitas pessoas imaginam que ele significa **User**.
+Hoje, esse diretório concentra programas, bibliotecas, documentação e diversos recursos compartilhados utilizados pelo sistema.
 
-Historicamente, porém, sua origem é **Unix System Resources**, pois ele reúne recursos compartilhados utilizados pelo sistema e pelos usuários.
+Na prática, o diretório `/usr` costuma ocupar uma das maiores quantidades de espaço em uma instalação Linux.
+
 
 ---
 
