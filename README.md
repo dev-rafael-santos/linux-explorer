@@ -71,7 +71,7 @@ linux-explorer/
 ├── laboratorios/
 ├── desafios/
 ├── imagens/
-└── bastidores/
+└── docs/
 ```
 
 ---
