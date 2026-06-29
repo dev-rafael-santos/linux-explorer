@@ -134,10 +134,11 @@ Módulos concluídos:
 - ✅ Sistema de Arquivos
 - ✅ Manipulação de Arquivos
 - ✅ Permissões
+- ✅ Gerenciamento de Pacotes
 
 Próximo módulo:
 
-- 🚧 Gerenciamento de Pacotes
+- 🚧 Processos
 
 ---
 
