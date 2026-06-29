@@ -46,8 +46,8 @@ A proposta é desenvolver compreensão, autonomia e confiança no uso do sistema
 | ✅ | 03 - Sistema de Arquivos |
 | ✅ | 04 - Manipulação de Arquivos |
 | ✅ | 05 - Permissões |
-| 🚧 | 06 - Gerenciamento de Pacotes |
-| ⏳ | 07 - Processos |
+| ✅ | 06 - Gerenciamento de Pacotes |
+| 🚧 | 07 - Processos |
 | ⏳ | 08 - Redes |
 | ⏳ | 09 - Bash Script |
 | ⏳ | 10 - Ambiente de Desenvolvimento |
